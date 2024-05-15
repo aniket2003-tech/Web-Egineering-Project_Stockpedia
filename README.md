@@ -2,8 +2,7 @@
 My project is about stock market advice. Subscribed users can take advantage of premium stock selection advice, whereas normal users are only provided with basic information about stock terms and the history of a stock.
 
 # Necessary Dependencies Installation
-Once the directories are installed on system, run the command 
-```npm install ```in the server-side repository and run the command ```npm start``` for the client-side repository.
+Once the directories are installed on system, run the command ```npm install ```in the server-side repository and run the command ```npm start``` for the client-side repository.
 
 # Necessary Data Insertion
 After completing the above steps, a folder named StockMarket will be created on your local MongoDB server. To make changes to the web application, you need admin privileges. Since our newly created MongoDB server doesn't have an admin user, you won't be able to make any changes initially. Insert the following document into your users collection to gain admin privileges:
