@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.green {
+  color: #37c670;
+}
+
+.para{
+  color: #9a8d8b;
+  font-size: 16px;
+}
+.fontModification{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.messageContainer{
+  /* margin-top: 5vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 3px; */
+  /* width: 100vh; */
+}
+.alert1 {
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  width: 120vh;
+  padding: 20px;
+  border-radius: 4vh;
+  background-color: #f44336;
+  color: white; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.alert2 {
+  /* position: ; */
+  width: 120vh;
+  border: 2px solid darkcyan;
+  padding: 20px;
+  border-radius: 4vh;
+  background-color: lightgreen;
+  color: black; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
